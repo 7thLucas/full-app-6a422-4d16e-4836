@@ -70,7 +70,6 @@ operations.
 
 ## Open / unconfirmed (assumptions, not facts)
 
-- Official app name — pending user decision.
 - Workforce volume: number of client-facing staff, branches, and audit frequency are
   not yet stated by the user. Any projection (e.g. on the North Star slide) must treat
   these as clearly-labeled, editable assumptions, not facts.
