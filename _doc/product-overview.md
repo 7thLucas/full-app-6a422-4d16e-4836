@@ -1,0 +1,1 @@
+Saya dari BSI, saya fokus nya ada di HR dan compliance. Buatlah sistem audit utk setiap pegawai2 di BSI yang client facing, misalkan RM, teller, dll (pikirkan sendiri)
