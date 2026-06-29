@@ -1,1 +1,68 @@
-Saya dari BSI, saya fokus nya ada di HR dan compliance. Buatlah sistem audit utk setiap pegawai2 di BSI yang client facing, misalkan RM, teller, dll (pikirkan sendiri)
+# Product Overview — Frontline Compliance Audit (BSI)
+
+> Working title — the official app name is not yet confirmed by the user.
+
+## What it is
+
+An internal **compliance audit system for client-facing employees at BSI**
+(Bank Syariah Indonesia). It lets the HR & Compliance function audit, score, and
+track every frontline staff member — Relationship Managers (RM), tellers, customer
+service, and other roles that deal directly with nasabah — against role-specific
+compliance standards, in one continuously up-to-date picture instead of a periodic
+manual scramble.
+
+## Who it's for
+
+- **HR & Compliance team (primary user / owner)** — runs audits, reviews results,
+  monitors audit-readiness across the workforce. This is the requester's own function.
+- **Compliance & HR leadership** — needs a real-time view of frontline compliance
+  status and exposure ahead of internal audit or regulator (OJK) review.
+- **Client-facing employees being audited** — RM, teller, customer service, and
+  similar roles; the subjects of each audit and the people who must close gaps.
+
+## The problem
+
+Compliance risk at a bank concentrates in client-facing roles: KYC/CDD gaps,
+product mis-selling, service-standard violations, and sharia-compliance lapses happen
+at the point of customer contact. Today these are surfaced through periodic, manual
+audits — so gaps are found late, often only when an internal auditor or the regulator
+finds them, when they have already become findings, fines, or reputational damage.
+
+## The solution / core workflow
+
+A per-employee audit record built around a **role-specific compliance checklist**:
+
+1. Auditor selects a client-facing employee and the relevant role checklist
+   (RM, teller, customer service, etc.).
+2. Auditor scores the employee against each compliance criterion, flags gaps, and
+   records evidence/notes.
+3. The completed audit produces a compliance score and a status for that employee.
+4. A dashboard rolls scores up across employees, roles, and branches so HR &
+   Compliance can see audit-readiness and exposure at a glance, and track whether
+   flagged gaps get closed.
+
+**Day-one "one thing brilliantly":** score a single client-facing employee against a
+role checklist and surface the gaps — the audit record itself.
+
+## Scope & strategic principles
+
+- Internal operational tool for the HR & Compliance function — not customer-facing.
+- Role-aware: different client-facing roles have different compliance checklists.
+- Focus is **continuous audit-readiness** (catch gaps before review), not just
+  record-keeping.
+- Domain: Indonesian Islamic banking — standards cover both general banking compliance
+  (KYC/CDD, service standards) and sharia compliance, in Indonesian-language context.
+
+## Verified operation (north star)
+
+The core domain event: **an employee compliance audit completed and scored** in the
+deployed app ("audit pegawai dinilai"). Logins, page views, and edits are not
+operations.
+
+## Open / unconfirmed (assumptions, not facts)
+
+- Official app name — pending user decision.
+- Workforce volume: number of client-facing staff, branches, and audit frequency are
+  not yet stated by the user. Any projection (e.g. on the North Star slide) must treat
+  these as clearly-labeled, editable assumptions, not facts.
+- Exact checklist criteria per role — to be defined with the user.
