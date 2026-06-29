@@ -20,8 +20,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@qb/agentic": "file:./app/modules/agentic",
     "@qb/authentication": "file:./app/modules/authentication",
     "@qb/email": "file:./app/modules/email",
+    "@qb/judgment": "file:./app/modules/judgment",
     "@radix-ui/react-label": "^2.1.10",
     "@radix-ui/react-slot": "^1.3.0",
     "@react-router/express": "^7.0.0",
@@ -40,6 +42,7 @@
     "lucide-react": "^0.514.0",
     "mongoose": "~8.21.0",
     "mongoose-delete": "^1.0.7",
+    "multer": "^2.2.0",
     "next-themes": "^0.4.6",
     "nodemailer": "^9.0.1",
     "react": "^19.0.0",
@@ -47,16 +50,16 @@
     "react-router": "^7.0.0",
     "tailwind-merge": "^3.6.0",
     "tsx": "^4.20.6",
-    "@qb/agentic": "file:./app/modules/agentic",
-    "@qb/judgment": "file:./app/modules/judgment"
+    "@qb/uploader": "file:./app/modules/uploader"
   },
   "devDependencies": {
     "@react-router/dev": "^7.0.0",
     "@react-router/remix-routes-option-adapter": "^7.6.2",
     "@types/bcryptjs": "^3.0.0",
-    "@types/cookie": "^1.0.0",
+    "@types/cookie": "0.6.0",
     "@types/express": "^5.0.5",
     "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.1.0",
     "@types/node": "^24.10.1",
     "@types/nodemailer": "^8.0.1",
     "@types/react": "^19.0.0",

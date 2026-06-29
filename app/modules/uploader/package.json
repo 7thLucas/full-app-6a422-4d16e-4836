@@ -1,0 +1,18 @@
+{
+  "name": "@qb/uploader",
+  "version": "1.0.0",
+  "description": "Backend-only upload gateway for qb-micro-uploader-platform",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "form-data": "^4.0.4",
+    "multer": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/multer": "^2.1.0"
+  }
+}

@@ -64,67 +64,73 @@ export type TDefaultConfigurableData = {
   logoUrl: string;
   brandColor: TBrandColor;
   font: TFont;
-  // Mirror new schema fields here. Example:
-  //   maxItemsPerPage?: number;
-  //   enableNotifications?: boolean;
-  //   featuredCategories?: string[];
+  tagline?: string;
+  organizationName?: string;
+  loginHeadline?: string;
+  loginSubtext?: string;
+  compliantThreshold?: number;
+  atRiskThreshold?: number;
 };
 
 export const defaultConfigurablesData: TDefaultConfigurableData = {
-  appName: "My App",
+  appName: "Amanah",
   logoUrl: "",
   brandColor: {
-    // Base
-    background:        "#ffffff",
-    foreground:        "#09090b",
+    // Base — clean near-white institutional surface
+    background:        "#f8fafc",
+    foreground:        "#0f172a",
     // Card
     card:              "#ffffff",
-    cardForeground:    "#09090b",
+    cardForeground:    "#0f172a",
     // Popover
     popover:           "#ffffff",
-    popoverForeground: "#09090b",
-    // Primary
-    primary:           "#2563eb",
-    primaryForeground: "#ffffff",
-    // Secondary
-    secondary:           "#f4f4f5",
-    secondaryForeground: "#18181b",
+    popoverForeground: "#0f172a",
+    // Primary — deep institutional teal (BSI palette)
+    primary:           "#0f766e",
+    primaryForeground: "#f8fafc",
+    // Secondary — soft teal tint surface
+    secondary:           "#ecfdf5",
+    secondaryForeground: "#115e59",
     // Muted
-    muted:           "#f4f4f5",
-    mutedForeground: "#71717a",
-    // Accent
-    accent:           "#f4f4f5",
-    accentForeground: "#18181b",
-    // Destructive
-    destructive:           "#ef4444",
-    destructiveForeground: "#fafafa",
+    muted:           "#f1f5f9",
+    mutedForeground: "#64748b",
+    // Accent — restrained gold for audit-grade emphasis
+    accent:           "#fdf6e3",
+    accentForeground: "#92660a",
+    // Destructive — gap / fail / critical
+    destructive:           "#dc2626",
+    destructiveForeground: "#f8fafc",
     // Border / Input / Ring
-    border: "#e4e4e7",
-    input:  "#e4e4e7",
-    ring:   "#2563eb",
-    // Charts
-    chart1: "#f97316",
-    chart2: "#0d9488",
-    chart3: "#1e3a5f",
-    chart4: "#d4a017",
-    chart5: "#ea580c",
+    border: "#e2e8f0",
+    input:  "#e2e8f0",
+    ring:   "#0f766e",
+    // Charts — compliance status semantics + brand
+    chart1: "#16a34a", // compliant / pass — green
+    chart2: "#d97706", // at risk — amber
+    chart3: "#dc2626", // gap / critical — red
+    chart4: "#0f766e", // brand teal
+    chart5: "#d4a017", // gold accent
     // Navbar
     navbarBackground: "#ffffff",
-    // Sidebar
-    sidebarBackground:        "#fafafa",
-    sidebarForeground:        "#3f3f46",
-    sidebarPrimary:           "#2563eb",
-    sidebarPrimaryForeground: "#ffffff",
-    sidebarAccent:            "#f4f4f5",
-    sidebarAccentForeground:  "#18181b",
-    sidebarBorder:            "#e4e4e7",
-    sidebarRing:              "#2563eb",
+    // Sidebar — deep teal institutional rail
+    sidebarBackground:        "#115e59",
+    sidebarForeground:        "#d1fae5",
+    sidebarPrimary:           "#d4a017",
+    sidebarPrimaryForeground: "#0f172a",
+    sidebarAccent:            "#0f766e",
+    sidebarAccentForeground:  "#f8fafc",
+    sidebarBorder:            "#0f766e",
+    sidebarRing:              "#d4a017",
   },
   font: {
     headingFont: "Plus Jakarta Sans",
     textFont: "Inter",
   },
-  // ─────────────────────────────────────────────────────────────────────
-  // Add new field defaults here. See RULES.md §5 for per-type shape.
-  // ─────────────────────────────────────────────────────────────────────
+  tagline: "Sistem Audit Kepatuhan",
+  organizationName: "Bank Syariah Indonesia",
+  loginHeadline: "Pantau kepatuhan, jaga amanah.",
+  loginSubtext:
+    "Sistem audit kepatuhan berbasis peran untuk pegawai garis depan BSI. Nilai, lacak, dan tutup temuan sebelum menjadi risiko.",
+  compliantThreshold: 85,
+  atRiskThreshold: 70,
 };
