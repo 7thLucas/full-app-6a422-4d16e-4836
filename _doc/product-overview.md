@@ -35,14 +35,14 @@ finds them, when they have already become findings, fines, or reputational damag
 
 A per-employee audit record built around a **role-specific compliance checklist**:
 
-1. Auditor selects a client-facing employee and the relevant role checklist
-   (RM, teller, customer service, etc.).
-2. Auditor scores the employee against each compliance criterion, flags gaps, and
+1. A manager selects a client-facing employee on their team and the relevant role
+   checklist (RM, teller, customer service, etc.).
+2. The manager scores the employee against each compliance criterion, flags gaps, and
    records evidence/notes.
 3. The completed audit produces a compliance score and a status for that employee.
-4. A dashboard rolls scores up across employees, roles, and branches so HR &
-   Compliance can see audit-readiness and exposure at a glance, and track whether
-   flagged gaps get closed.
+4. A dashboard rolls scores up across employees, roles, teams, and branches so the
+   HR Director sees frontline manpower quality and audit-readiness at a glance, and so
+   flagged gaps can be tracked to closure.
 
 **Day-one "one thing brilliantly":** score a single client-facing employee against a
 role checklist and surface the gaps — the audit record itself.
