@@ -1,6 +1,9 @@
-# Product Overview — Frontline Compliance Audit (BSI)
+# Product Overview — SIAGA (BSI)
 
-> Working title — the official app name is not yet confirmed by the user.
+> **SIAGA** — "Sistem Audit & Gap Assessment" — the confirmed app name (chosen by the
+> agent under the user's "pikirkan sendiri" mandate; user may rename at any time).
+> Brand: calm, professional teal theme (primary ≈ #0f766e); logo is a teal shield with
+> a checkmark, signalling compliance and vigilance/readiness ("siaga").
 
 ## What it is
 
