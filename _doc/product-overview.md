@@ -1,9 +1,12 @@
-# Product Overview — SIAGA (BSI)
+# Product Overview — Amanah (BSI)
 
-> **SIAGA** — "Sistem Audit & Gap Assessment" — the confirmed app name (chosen by the
-> agent under the user's "pikirkan sendiri" mandate; user may rename at any time).
-> Brand: calm, professional teal theme (primary ≈ #0f766e); logo is a teal shield with
-> a checkmark, signalling compliance and vigilance/readiness ("siaga").
+> **Amanah** — the confirmed app name (chosen by the agent under the user's "pikirkan
+> sendiri" mandate; user may rename at any time). *Amanah* means trustworthiness /
+> integrity — a core Islamic-finance value — which is the brand spirit: trusted, clean,
+> professional, audit-grade. Brand: calm teal-to-deep-green theme (primary ≈ #0f766e)
+> with subtle gold accents; logo is a teal-green shield with an integrated checkmark,
+> signalling compliance, verification, and trust, aligned to the BSI / sharia-banking
+> identity.
 
 ## What it is
 
