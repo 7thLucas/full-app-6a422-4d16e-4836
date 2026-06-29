@@ -49,10 +49,13 @@ role checklist and surface the gaps — the audit record itself.
 
 ## Scope & strategic principles
 
-- Internal operational tool for the HR & Compliance function — not customer-facing.
+- Internal operational tool — a manager's everyday instrument, with an HR Director
+  oversight view; not customer-facing.
+- Manager-driven: the daily action is a line manager auditing their own team; the
+  HR Director consumes the rolled-up result.
 - Role-aware: different client-facing roles have different compliance checklists.
-- Focus is **continuous audit-readiness** (catch gaps before review), not just
-  record-keeping.
+- Purpose is **maintaining frontline manpower quality** through continuous
+  audit-readiness (catch gaps before review), not just record-keeping.
 - Domain: Indonesian Islamic banking — standards cover both general banking compliance
   (KYC/CDD, service standards) and sharia compliance, in Indonesian-language context.
 
