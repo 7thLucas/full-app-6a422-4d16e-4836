@@ -5,18 +5,21 @@
 ## What it is
 
 An internal **compliance audit system for client-facing employees at BSI**
-(Bank Syariah Indonesia). It lets the HR & Compliance function audit, score, and
-track every frontline staff member — Relationship Managers (RM), tellers, customer
-service, and other roles that deal directly with nasabah — against role-specific
-compliance standards, in one continuously up-to-date picture instead of a periodic
-manual scramble.
+(Bank Syariah Indonesia). **Line managers** use it as a daily tool to audit, score,
+and track each member of their own frontline team — Relationship Managers (RM),
+tellers, customer service, and other roles that deal directly with nasabah — against
+role-specific compliance standards, so manpower quality stays high at the point of
+customer contact. The **HR Director** sees those results roll up into one
+continuously up-to-date picture, instead of a periodic manual scramble.
 
 ## Who it's for
 
-- **HR & Compliance team (primary user / owner)** — runs audits, reviews results,
-  monitors audit-readiness across the workforce. This is the requester's own function.
-- **Compliance & HR leadership** — needs a real-time view of frontline compliance
-  status and exposure ahead of internal audit or regulator (OJK) review.
+- **Line managers (primary, daily users)** — audit and score the client-facing staff
+  they supervise, flag gaps, and keep their team's quality up. The everyday hands on
+  the tool.
+- **HR Director (top-level oversight)** — monitors audit-readiness and frontline
+  manpower quality across teams and branches from a rolled-up view; needs the picture
+  ahead of internal audit or regulator (OJK) review. The owner who requested this.
 - **Client-facing employees being audited** — RM, teller, customer service, and
   similar roles; the subjects of each audit and the people who must close gaps.
 
