@@ -1,0 +1,40 @@
+<section class="w-full h-full overflow-auto bg-white relative">
+  <style>
+    .mode-portrait .sl-grid { flex-direction: column; }
+    .mode-portrait .sl-visual { width: 100%; height: 38%; }
+    .mode-landscape .sl-visual { width: 42%; height: 100%; }
+  </style>
+  <div class="sl-grid flex w-full h-full">
+    <!-- Content column -->
+    <div class="flex flex-col justify-between p-12" style="flex:1;">
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style="background:#0f766e;color:#ffffff;">BSI · HR &amp; COMPLIANCE</span>
+        <span class="text-xs font-medium tracking-widest text-slate-500 uppercase">Internal Tool</span>
+      </div>
+
+      <div class="mt-6">
+        <h1 class="font-extrabold leading-tight text-slate-900" style="font-size:3rem;">
+          Audit Kepatuhan<br/>Pegawai <span style="color:#0f766e;">Client-Facing</span>
+        </h1>
+        <p class="mt-5 text-lg text-slate-600 max-w-xl">
+          Satu sistem untuk menilai, menilai ulang, dan memantau kepatuhan setiap RM,
+          teller, dan customer service BSI — audit-readiness yang hidup, bukan kelabakan
+          jelang pemeriksaan.
+        </p>
+      </div>
+
+      <div class="flex items-end justify-between">
+        <data-attribution />
+        <span class="text-xs text-slate-400">Bank Syariah Indonesia</span>
+      </div>
+    </div>
+
+    <!-- Visual column -->
+    <div class="sl-visual relative overflow-hidden">
+      <img class="absolute inset-0 w-full h-full object-cover"
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=calm%20modern%20bank%20branch%20interior%2C%20teller%20and%20relationship%20manager%20serving%20customers%2C%20professional%2C%20teal%20accent%2C%20soft%20daylight%2C%20editorial%20photography"
+        alt="Frontline banking staff serving customers" />
+      <div class="absolute inset-0" style="background:linear-gradient(120deg, rgba(15,118,110,0.35), rgba(15,23,42,0.15));"></div>
+    </div>
+  </div>
+</section>
