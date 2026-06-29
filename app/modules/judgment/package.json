@@ -1,0 +1,10 @@
+{
+  "name": "@qb/judgment",
+  "version": "1.0.0",
+  "description": "Judgment engine module for config parsing, direct config creation, and evidence review workflows",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts"
+  }
+}

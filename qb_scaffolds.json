@@ -10,5 +10,17 @@
     "type": "scaffold",
     "status": "success",
     "error_msg": ""
+  },
+  {
+    "name": "judgment",
+    "type": "scaffold",
+    "status": "success",
+    "error_msg": ""
+  },
+  {
+    "name": "agentic",
+    "type": "scaffold",
+    "status": "success",
+    "error_msg": ""
   }
 ]
