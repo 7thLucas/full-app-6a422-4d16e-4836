@@ -1,0 +1,14 @@
+[
+  {
+    "name": "authentication",
+    "type": "scaffold",
+    "status": "success",
+    "error_msg": ""
+  },
+  {
+    "name": "email",
+    "type": "scaffold",
+    "status": "success",
+    "error_msg": ""
+  }
+]

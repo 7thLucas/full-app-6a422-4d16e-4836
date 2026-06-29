@@ -1,0 +1,16 @@
+{
+  "name": "@qb/email",
+  "version": "1.0.0",
+  "description": "Email service module — sends transactional mail via SMTP using nodemailer",
+  "type": "module",
+  "main": "email.service.ts",
+  "exports": {
+    ".": "./email.service.ts"
+  },
+  "dependencies": {
+    "nodemailer": "^8.0.6"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^8.0.0"
+  }
+}

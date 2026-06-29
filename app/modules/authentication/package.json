@@ -1,0 +1,20 @@
+{
+  "name": "@qb/authentication",
+  "version": "1.0.0",
+  "description": "Authentication module — JWT/cookie auth with login, register, forgot/reset password, logout, and admin seed",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie": "^1.0.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie": "^0.6.0",
+    "@types/jsonwebtoken": "^9.0.9"
+  }
+}
